@@ -39564,7 +39564,7 @@ defaultWorkgroup="ph">-->
                   gitUrl="https://github.com/HL7/carin-rtpbc"
                   url="http://hl7.org/fhir/us/carin-rtpbc">
       <version code="current" url="http://build.fhir.org/ig/HL7/carin-rtpbc"/>
-      <version code="2.0.0" url="https://hl7.org/fhir/us/carin-rtpbc/2.0.0"/>
+      <version code="2.0.0" url="http://hl7.org/fhir/us/carin-rtpbc/2.0.0"/>
       <version code="2.0.0-ballot"
                deprecated="true"
                url="http://hl7.org/fhir/us/carin-rtpbc/2026May"/>
@@ -40058,13 +40058,13 @@ defaultWorkgroup="ph">-->
             name="Business Rules"
             spec="us-carin-rtpbc"/>
       <page key="FHIR-us-carin-rtpbc-capstatements"
-            name="Capstatements"
+            name="Capability Statements"
             spec="us-carin-rtpbc"/>
       <page key="FHIR-us-carin-rtpbc-conformance"
             name="Conformance"
             spec="us-carin-rtpbc"/>
       <page key="FHIR-us-carin-rtpbc-consumer_vs_provider_rtpbc"
-            name="Consumer vs Provider Rtpbc"
+            name="Consumer vs Provider RTPBC"
             spec="us-carin-rtpbc"/>
       <page deprecated="true"
             key="FHIR-us-carin-rtpbc-cosumer-vs-provider"
@@ -40093,7 +40093,7 @@ defaultWorkgroup="ph">-->
             spec="us-carin-rtpbc"/>
       <page key="FHIR-us-carin-rtpbc-index" name="Home" spec="us-carin-rtpbc"/>
       <page key="FHIR-us-carin-rtpbc-information_content_and_fhir_resources"
-            name="Information Content and Fhir Resources"
+            name="Information Content and FHIR Resources"
             spec="us-carin-rtpbc"/>
       <page deprecated="true"
             key="FHIR-us-carin-rtpbc-information"
@@ -95171,6 +95171,9 @@ defaultWorkgroup="ph">-->
                 spec="uv-rwi-pharma"/>
       <page key="FHIR-uv-rwi-pharma-NA" name="(NA)" spec="uv-rwi-pharma"/>
       <page key="FHIR-uv-rwi-pharma-many" name="(many)" spec="uv-rwi-pharma"/>
+      <page key="FHIR-uv-rwi-pharma-acknowledgements"
+            name="Acknowledgements"
+            spec="uv-rwi-pharma"/>
       <page key="FHIR-uv-rwi-pharma-architecture"
             name="Architecture"
             spec="uv-rwi-pharma"/>
@@ -95179,6 +95182,9 @@ defaultWorkgroup="ph">-->
             spec="uv-rwi-pharma"/>
       <page key="FHIR-uv-rwi-pharma-capability-requirements"
             name="Capability Requirements"
+            spec="uv-rwi-pharma"/>
+      <page key="FHIR-uv-rwi-pharma-changes"
+            name="Change Log"
             spec="uv-rwi-pharma"/>
       <page key="FHIR-uv-rwi-pharma-rwipharmadocumentReference"
             name="DocumentReference"
@@ -95192,9 +95198,6 @@ defaultWorkgroup="ph">-->
       <page key="FHIR-uv-rwi-pharma-index" name="Home" spec="uv-rwi-pharma"/>
       <page key="FHIR-uv-rwi-pharma-rwipharmainteractionpattern"
             name="Interaction Pattern"
-            spec="uv-rwi-pharma"/>
-      <page key="FHIR-uv-rwi-pharma-rwipharmasubscriptionNotificationAndStatus"
-            name="Notification &amp; Status"
             spec="uv-rwi-pharma"/>
       <page key="FHIR-uv-rwi-pharma-subscriptions"
             name="Notifications"
@@ -95220,6 +95223,9 @@ defaultWorkgroup="ph">-->
       <page key="FHIR-uv-rwi-pharma-rwipharmasubscription"
             name="Subscription"
             spec="uv-rwi-pharma"/>
+      <page key="FHIR-uv-rwi-pharma-rwipharmasubscriptionNotificationAndStatus"
+            name="Subscription Notification &amp; Status"
+            spec="uv-rwi-pharma"/>
       <page key="FHIR-uv-rwi-pharma-rwipharmasubscriptionTopic"
             name="SubscriptionTopic"
             spec="uv-rwi-pharma"/>
@@ -95235,8 +95241,9 @@ defaultWorkgroup="ph">-->
       <page key="FHIR-uv-rwi-pharma-usecases"
             name="Use Cases"
             spec="uv-rwi-pharma"/>
-      <page key="FHIR-uv-rwi-pharma-workflow"
-            name="Workflow"
+      <page deprecated="true"
+            key="FHIR-uv-rwi-pharma-workflow"
+            name="Workflow [deprecated]"
             spec="uv-rwi-pharma"/>
    </specification>
    <specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -124878,6 +124885,9 @@ defaultWorkgroup="ph">-->
             name="Discovery"
             spec="fast-security"/>
       <page key="FHIR-fast-security-index" name="Home" spec="fast-security"/>
+      <page key="FHIR-fast-security-references"
+            name="References"
+            spec="fast-security"/>
       <page key="FHIR-fast-security-registration"
             name="Registration"
             spec="fast-security"/>
